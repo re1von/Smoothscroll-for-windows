@@ -8,7 +8,7 @@ from win32con import WH_MOUSE_LL, WM_MOUSEWHEEL, WM_QUIT, MOUSEEVENTF_HWHEEL, MO
 from win32gui import GetCursorPos, WindowFromPoint
 from win32process import GetWindowThreadProcessId, GetModuleFileNameEx
 
-from smoothscroll.models import SmoothScrollConfig, LowLevelMouseProc
+from ..models import SmoothScrollConfig, LowLevelMouseProc
 
 user32 = WinDLL('user32', use_last_error=True)
 

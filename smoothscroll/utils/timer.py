@@ -3,7 +3,7 @@ from threading import Thread
 from time import perf_counter, sleep
 from typing import Callable, Union
 
-from smoothscroll.models import TimerTask
+from ..models import TimerTask
 
 
 class Timer(Thread):

@@ -2,8 +2,8 @@ import math
 from time import perf_counter
 from typing import Union, Callable
 
-from models import SmoothScrollConfig, ScrollConfig, ScrollEvent
-from utils import Timer, MouseListener, get_display_frequency, set_console_ctrl_handler, scroll
+from .models import SmoothScrollConfig, ScrollConfig, ScrollEvent
+from .utils import Timer, MouseListener, get_display_frequency, set_console_ctrl_handler, scroll
 
 
 class SmoothScroll:

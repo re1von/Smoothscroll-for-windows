@@ -4,7 +4,7 @@ from typing import Optional, Union, Type, Literal, Iterable
 
 from win32con import VK_SHIFT, VK_CONTROL, VK_MENU
 
-from smoothscroll.models import EasingFunction
+from . import EasingFunction
 
 
 class ScrollConfig:
